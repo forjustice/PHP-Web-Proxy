@@ -9,7 +9,7 @@ require(__DIR__ . "/../config.php");
     <meta charset="utf-8">
     <meta name="description" content="<?php echo $config["website-description"]; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.14/icons/favicon-16x16.png"/>
+    <link rel="shortcut icon" href="picture.ccpcpc.icu/images/2019/10/04/16-16.png"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 <body>
@@ -26,17 +26,17 @@ require(__DIR__ . "/../config.php");
                 <p class="lead"><?php echo $lang["slogan"]; ?></p>
                 <div class="btn-group" role="group">
                     <a id="none" class="btn btn-success" href="/">Home</a>
-                    <a id="twitter" class="btn btn-info" href="#">Twitter</a>
+                    <a id="startpage" class="btn btn-info" href="#">Startpage</a>
                     <a id="youtube" class="btn btn-danger" href="#">YouTube</a>
-                    <a id="facebook" class="btn btn-primary" href="#">Facebook</a>
+                    <a id="civicedu" class="btn btn-primary" href="#">CivicEdu</a>
                 </div>
                 <br>
                 <br>
                 <div class="btn-group" role="group">
                     <a id="vikipedi" class="btn btn-secondary" href="#"><?php echo $lang["wikipedia"]; ?></a>
-                    <a id="google" class="btn btn-success" href="#">Google</a>
-                    <a id="piratebay" class="btn btn-danger" href="#">ThePirateBay</a>
-                    <a id="zooqle" class="btn btn-info" href="#">Zooqle</a>
+                    <a id="pornhub" class="btn btn-success" href="#">Pornhub</a>
+                    <a id="piratebay" class="btn btn-danger" href="#">PirateBay</a>
+                    <a id="thinker" class="btn btn-info" href="#">Thinker</a>
                 </div>
                 <p class="lead">
                 <form class="form-group" action="index.php" method="post">
@@ -57,26 +57,26 @@ require(__DIR__ . "/../config.php");
     </div>
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <script>
-        $('#twitter').click(function () {
-            $('#url').val('https://twitter.com');
+        $('#startpage').click(function () {
+            $('#url').val('https://www.startpage.com');
         });
         $('#youtube').click(function () {
             $('#url').val('https://www.youtube.com');
         });
-        $('#facebook').click(function () {
-            $('#url').val('https://www.facebook.com');
+        $('#civicedu').click(function () {
+            $('#url').val('https://www.civicedu.org');
         });
-        $('#google').click(function () {
-            $('#url').val('https://www.google.com');
+        $('#pornhub').click(function () {
+            $('#url').val('https://www.pornhub.com');
         });
         $('#vikipedi').click(function () {
-            $('#url').val('https://www.wikipedia.org');
+            $('#url').val('https://zh.wikipedia.org');
         });
         $('#piratebay').click(function () {
             $('#url').val('https://thepiratebay.org');
         });
-        $('#zooqle').click(function () {
-            $('#url').val('https://zooqle.com');
+        $('#thinker').click(function () {
+            $('#url').val('https://program-think.blogspot.com');
         });
     </script>
 </div>

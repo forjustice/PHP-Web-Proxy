@@ -3,7 +3,7 @@
 // all possible options will be stored
 $config = array();
 
-$config['website-name'] = "Online Web Proxy";
+$config['website-name'] = "Enjoy it";
 $config['website-url'] = "https://" . $_SERVER['HTTP_HOST'] . "";
 $config['website-description'] = "Online Web Proxy to Bypass Block Restrictions.";
 
